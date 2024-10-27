@@ -1,0 +1,7 @@
+python3 -m venv venv
+source venv/bin/activate
+# Install Rust and Cargo
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- -y
+# source $HOME/.cargo/env
+python3 -m pip install -q -U watermark
+
