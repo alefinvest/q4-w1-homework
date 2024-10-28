@@ -56,6 +56,7 @@ messages.append(
 
 # Specify the model used
 model = "gpt-4o-mini"
+# models = ["gpt-3.5-turbo", "gpt-4", "gpt-4-0125-preview"]
 
 # Menu
 while True:
